@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/style.css">
+    <style>
+        nav h2 a{
+            color: white;
+            text-decoration: none;
+        }
+        nav h2 a:visited{
+            color: gray;
+        }
+        nav h2 a:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <title>PAISAGEM</title>
+</head>
+<body>
+    <main>
+        <h1>Imagem dinâmica - 02</h1>
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="img/paisagem-m.png" type="image/png">
+            <img src="img/img-g.png" alt="Paisagem">
+        </picture>
+        <nav>
+            <h2><a href="img_dinamica.html" rel="prev">Voltar</a></h2>
+        </nav>
+    </main>
+</body>
+</html>

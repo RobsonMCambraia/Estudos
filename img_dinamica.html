@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/style.css">
+        <title>Mídias em HTML5</title>
+    </head>
+    <body>
+        <main>
+            <h1>Imagens Dinâmicas</h1>
+            <p>Tente abrir esse site em diferentes dispositivos ou simplesmente aumente ou diminua a tela do navegador.</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="img/IMAGEM-P.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="img/IMAGEM-M.png" type="image/png">
+                <img src="img/IMAGEM-G.png" alt="Imagem Dinâmica">
+            </picture>
+            <p>Decidi fazer essa mesma coisa com outras imagens, <a href="img_dinamica2.html" rel="next">dá uma olhada!</a></p>
+            <h2>Áudio</h2>
+            <p>Eu peguei essa música aqui que eu não faço a mínima ideia de quem seja, mas era de graça e eu podia usar, entt... er kkkkk fazer oq. Escuta ai:</p>
+            <audio preload="metadata" controls loop>
+                <source src="Outros/Caribbean Hide & Seek - Carmen María and Edu Espinal.mp3" type="audio/mpeg">
+                <p>Perdão, mas seu navegador não suporta este áudio.</p>
+            </audio>
+            <p>Mó legal, né? tbm achei. Me  dá dinheiro?</p>
+            <h2>Video</h2>
+            <p>É possível colocar vídeos com o HTML5, basta usar a tag <code>&lt; &gt;</code>. Podemos hospedar localmente ou</p>
+            <h2>Hospedagem local</h2>
+            <p>Este video está hospedado no meu próprio servidor:</p>
+            <video width="640px" poster="img/pexels-pixabay-270348.jpg" controls>
+                <source src="Outros/pexels-tima-miroshnichenko-5377682 (video-converter.com).webm" type="video/webm">
+                <p>Não foi possível reproduzir o vídeo :/ <br> Tente em outro navegador.</p>
+            </video>
+            <h2>Video Hospedado no Vimeo</h2>
+            <iframe src="https://player.vimeo.com/video/164706770?h=83652ef938&color=ffffff&title=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <H2>Video hospedado no YouTube</H2>
+            <iframe width="640px" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <nav>
+            <h2>Menu</h2>
+                <ul>
+                    <li><a href="index.html" rel="next">Home</a></li>
+                    <li><a href="Sobre.html" rel="next">Sobre</a></li>
+                    <li><a href="teste_de_imagem.html"rel="next">Teste de Imagem</a></li>
+                    <li><a href="Títulos.html" rel="next">Títulos</a></li>
+                    <li><a href="Citações_e_códigos.html" rel="next">Citações e Código</a></li>
+                    <li><a href="formatação.html" rel="next">Formatação</a></li>
+                    <li><a href="LISTAS.HTML" rel="next">Listas</a></li>
+                    <li><a href="link's.html" rel="next">Links</a></li>
+                    <li><a href="tags-html.html" rel="next">Tags</a></li>
+                </ul>
+            </nav>
+        </main>
+    </body>
+</html>
