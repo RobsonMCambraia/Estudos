@@ -66,6 +66,7 @@ h1 {
 body img {
     width: 100%;
 }
-#código {
+main #código {
     margin: auto;
+    text-align: center;
 }
